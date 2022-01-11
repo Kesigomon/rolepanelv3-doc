@@ -1,1 +1,7 @@
 node_modules
+src/__generated__/*
+public
+.cache
+.idea
+.history
+.vscode

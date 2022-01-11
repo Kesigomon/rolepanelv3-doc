@@ -6,12 +6,20 @@ module.exports = {
   plugins: [
     "gatsby-plugin-mdx",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
       },
-      __key: "pages",
     },
+    {
+      resolve: 'gatsby-plugin-typegen',
+      options: {
+        outputPath: `src/__generated__/gatsby-types.ts`,
+        emitSchema: {
+          'src/__generated__/schema.graphql': true,
+        },
+      }
+    }
   ],
 };
