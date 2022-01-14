@@ -13,7 +13,7 @@ const Layout = ({children}: PropsWithChildren<{}>) => {
     return (
         <>
             <SideBar/>
-            <Box>
+            <Box component="main">
             {children}
             </Box>
             
