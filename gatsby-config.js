@@ -20,6 +20,12 @@ module.exports = {
           'src/__generated__/schema.graphql': true,
         },
       }
+    },
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/layouts/index.tsx`),
+      },
     }
   ],
 };
