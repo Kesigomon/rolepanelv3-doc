@@ -1,5 +1,4 @@
 import React, {PropsWithChildren} from 'react'
-import { styled } from '@mui/material/styles';
 import {List, ListItem, ListItemButton, ListItemIcon, ListItemText} from '@mui/material'
 import {graphql, Link, useStaticQuery} from 'gatsby'
 import HomeIcon from '@mui/icons-material/Home';
@@ -7,10 +6,12 @@ import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
-type Props = PropsWithChildren<{}>
+type Props = PropsWithChildren<{
+    onClick?: (event: React.MouseEvent<HTMLAnchorElement>) => void
+}>
 
 const ListItems = (props: Props) => {
-    
+    const {onClick} = props
     const {allSitePage: commandsPages} = useStaticQuery<GatsbyTypes.MyQueryQuery>(graphql`
         query MyQuery {
             allSitePage(filter: {path: {glob: "/commands/*"}}) {
@@ -23,7 +24,7 @@ const ListItems = (props: Props) => {
     return (    
             <List>
                 <ListItem>
-                    <ListItemButton component={Link} to="/">
+                    <ListItemButton component={Link} to="/" onClick={onClick}>
                         <ListItemIcon>
                             <HomeIcon/>
                         </ListItemIcon>
@@ -31,7 +32,7 @@ const ListItems = (props: Props) => {
                     </ListItemButton>
                 </ListItem>
                 <ListItem>
-                    <ListItemButton component={Link} to="/quickstart">
+                    <ListItemButton component={Link} to="/quickstart" onClick={onClick}>
                         <ListItemIcon>
                             <AccessTimeIcon/>
                         </ListItemIcon>
@@ -40,7 +41,7 @@ const ListItems = (props: Props) => {
                     </ListItemButton>
                 </ListItem>
                 <ListItem>
-                    <ListItemButton component={Link} to="/faq">
+                    <ListItemButton component={Link} to="/faq" onClick={onClick}>
                         <ListItemIcon>
                             <QuestionMarkIcon/>
                         </ListItemIcon>
@@ -52,7 +53,7 @@ const ListItems = (props: Props) => {
                     const commandName = node.path.split('/')[2]
                     return (
                         <ListItem>
-                            <ListItemButton component={Link} to={node.path}>
+                            <ListItemButton component={Link} to={node.path} onClick={onClick}>
                                 <ListItemIcon>
                                     <FiberManualRecordIcon/>
                                 </ListItemIcon>
