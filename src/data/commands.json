@@ -1,0 +1,355 @@
+[
+  {
+    "command": {
+      "type": 1,
+      "name": "add",
+      "description": "パネルに役職を追加します",
+      "options": [
+        {
+          "type": 8,
+          "name": "role1",
+          "description": "パネルに追加する役職です。",
+          "required": true
+        },
+        {
+          "type": 3,
+          "name": "emoji1",
+          "description": "追加する役職に使用する絵文字です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role2",
+          "description": "パネルに追加する役職です。",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "emoji2",
+          "description": "追加する役職に使用する絵文字です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role3",
+          "description": "パネルに追加する役職です。",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "emoji3",
+          "description": "追加する役職に使用する絵文字です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role4",
+          "description": "パネルに追加する役職です。",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "emoji4",
+          "description": "追加する役職に使用する絵文字です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role5",
+          "description": "パネルに追加する役職です。",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "emoji5",
+          "description": "追加する役職に使用する絵文字です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role6",
+          "description": "パネルに追加する役職です。",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "emoji6",
+          "description": "追加する役職に使用する絵文字です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role7",
+          "description": "パネルに追加する役職です。",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "emoji7",
+          "description": "追加する役職に使用する絵文字です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role8",
+          "description": "パネルに追加する役職です。",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "emoji8",
+          "description": "追加する役職に使用する絵文字です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role9",
+          "description": "パネルに追加する役職です。",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "emoji9",
+          "description": "追加する役職に使用する絵文字です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role10",
+          "description": "パネルに追加する役職です。",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "emoji10",
+          "description": "追加する役職に使用する絵文字です。",
+          "required": false
+        }
+      ]
+    }
+  },
+  {
+    "command": {
+      "type": 1,
+      "name": "remove",
+      "description": "選択されたパネルから役職を削除します",
+      "options": [
+        {
+          "type": 8,
+          "name": "role1",
+          "description": "パネルから削除する役職です。",
+          "required": true
+        },
+        {
+          "type": 8,
+          "name": "role2",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role3",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role4",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role5",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role6",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role7",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role8",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role9",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role10",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role11",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role12",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role13",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role14",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role15",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role16",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role17",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role18",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role19",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        },
+        {
+          "type": 8,
+          "name": "role20",
+          "description": "パネルから削除する役職です。",
+          "required": false
+        }
+      ]
+    }
+  },
+  {
+    "command": {
+      "type": 1,
+      "name": "create",
+      "description": "パネルを新しく作成します",
+      "options": [
+        {
+          "type": 8,
+          "name": "role",
+          "description": "パネルに最初に追加する役職です。",
+          "required": true
+        },
+        {
+          "type": 3,
+          "name": "title",
+          "description": "パネルのタイトルです。指定しなければ「役職パネル」になります。",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "color",
+          "description": "パネルのカラーです。指定しなければ黒になります。",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "emoji",
+          "description": "最初に追加する役職の絵文字です。指定しなければABC絵文字が使用されます。",
+          "required": false
+        }
+      ]
+    }
+  },
+  {
+    "command": {
+      "type": 1,
+      "name": "selected",
+      "description": "現在選択されているパネルのリンクを返します",
+      "options": []
+    }
+  },
+  {
+    "command": {
+      "type": 1,
+      "name": "delete",
+      "description": "選択したパネルを削除します",
+      "options": []
+    }
+  },
+  {
+    "command": {
+      "type": 1,
+      "name": "copy",
+      "description": "選択したパネルをコピーします。",
+      "options": []
+    }
+  },
+  {
+    "command": {
+      "type": 1,
+      "name": "edit",
+      "description": "選択したパネルのタイトルを変更します。",
+      "options": [
+        {
+          "type": 3,
+          "name": "title",
+          "description": "タイトル",
+          "required": false
+        },
+        {
+          "type": 3,
+          "name": "color",
+          "description": "カラー",
+          "required": false
+        }
+      ]
+    }
+  },
+  {
+    "selectedMessage": {},
+    "commandName": "パネル選択",
+    "command": {
+      "name": "selectpanel",
+      "type": 3,
+      "defaultPermission": true
+    }
+  },
+  {
+    "commandName": "v2パネル引き継ぎ",
+    "command": {
+      "name": "v2hikitugi",
+      "type": 3,
+      "defaultPermission": true
+    }
+  }
+]
