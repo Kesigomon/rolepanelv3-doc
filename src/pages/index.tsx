@@ -10,7 +10,7 @@ const IndexPage = () => {
             サーバーの管理者がこのBOTを利用して「役職パネル」を作成し、メンバーはそのパネルを確認してリアクションを行います。
             すると、そのリアクションに対応した役職をBOTが自動で付与してくれます。
             <h1>招待リンク</h1>
-            <a href={"https://discord.com/api/oauth2/authorize?client_id=895912135039803402&permissions=268782656&scope=bot%20applications.commands"}>
+            <a href={"https://discord.com/api/oauth2/authorize?client_id=895912135039803402&permissions=268790848&scope=bot%20applications.commands"}>
                 Add to Your Server
             </a>
             <h1>サポートサーバー</h1>
