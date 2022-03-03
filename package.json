@@ -15,26 +15,26 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
-    "@mui/icons-material": "^5.2.5",
-    "@mui/material": "^5.2.7",
-    "gatsby": "^4.4.0",
-    "gatsby-plugin-image": "^2.6.0",
-    "gatsby-plugin-layout": "^3.4.0",
-    "gatsby-plugin-mdx": "^3.4.0",
-    "gatsby-plugin-sharp": "^4.6.0",
+    "@mui/icons-material": "^5.4.4",
+    "@mui/material": "^5.4.4",
+    "gatsby": "^4.9.0",
+    "gatsby-plugin-image": "^2.9.0",
+    "gatsby-plugin-layout": "^3.9.0",
+    "gatsby-plugin-mdx": "^3.9.0",
+    "gatsby-plugin-sharp": "^4.9.0",
     "gatsby-plugin-typegen": "^2.2.4",
-    "gatsby-remark-images": "^6.6.0",
-    "gatsby-source-filesystem": "^4.6.0",
-    "gatsby-transformer-sharp": "^4.6.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "gatsby-remark-images": "^6.9.0",
+    "gatsby-source-filesystem": "^4.9.0",
+    "gatsby-transformer-sharp": "^4.9.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/mdx-js__react": "^1.5.5",
-    "typescript": "^4.5.4"
+    "typescript": "^4.6.2"
   }
 }
