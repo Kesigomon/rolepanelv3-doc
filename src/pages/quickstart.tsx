@@ -20,7 +20,7 @@ const QuickStart = () =>{
             <CommandBox copyable={false}>
                 /rp create role:@りんご
             </CommandBox>
-            このコマンドを実行すると以下のようになります
+            このコマンドを実行すると以下のようになります<br/>
             <StaticImage src="../images/quickstart-2.png" alt={""} height={500}/>
             <h2>addコマンド</h2>
             パネルに役職を追加する時は`add`コマンドを利用します。<br/>
@@ -29,7 +29,7 @@ const QuickStart = () =>{
             <CommandBox copyable={false}>
                 /rp add role1:@バナナ role2:@メロン
             </CommandBox>
-            このコマンドを実行すると以下のようになります
+            このコマンドを実行すると以下のようになります<br/>
             <StaticImage src="../images/quickstart-3.png" alt={""} height={500}/>
             <h2>選択コマンド</h2>
             追加先のパネルを選択するには、まずパネルを右クリックします。<br/>
