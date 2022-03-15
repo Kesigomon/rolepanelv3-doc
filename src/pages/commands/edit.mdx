@@ -1,0 +1,39 @@
+import CommandBox from "../../components/commandBox";
+
+# editコマンド
+選択したパネルのタイトルやカラーを変更します。
+## options
+| 名前             | 説明          | かならず必要？    |
+|:---|:---|:--:|
+| `color` | パネルの色 | `x` |
+| `title` | パネルのタイトル | `x` |
+### Color引数について
+以下のいずれかが使えます。
+
+1. 以下のいずれか
+  - `Default`,`White`,`Aqua`,`Green`,`Blue`,`Yellow`,`Purple`
+  - `LuminousVividPink`,`Fuchsia`,`Gold`,`Orange`,`Red`,`Grey`
+  - `Navy`,`DarkAqua`,`DarkGreen`,`DarkBlue`,`DarkPurple`
+  - `DarkVividPink`,`DarkGold`,`DarkOrange`,`DarkRed`,`DarkGrey`,`DarkerGrey`
+  - `LightGrey`,`DarkNavy`,`Blurple`,`Greyple`,`DarkButNotBlack`,`NotQuiteBlack`
+  - RGB対応表は[こちら](https://github.com/discordjs/discord.js/blob/main/packages/discord.js/src/util/Colors.js)
+1. Random
+- パネルの色がランダムになります
+1. カラーコード指定
+- RGB形式で指定できます
+## example
+タイトルを変更する例
+<CommandBox>
+    /rp edit title:色系役職
+</CommandBox>
+色を指定する例
+<CommandBox>
+    /rp edit color:Blue
+</CommandBox>
+パネルの色やタイトルを変更する例
+<CommandBox>
+    /rp edit title:ルールを読んだらつけてね color:00fa00
+</CommandBox>
+<CommandBox>
+    /rp edit title:ランダムカラー！ color:RANDOM
+</CommandBox>
