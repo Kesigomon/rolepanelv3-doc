@@ -1,0 +1,36 @@
+import CommandBox from "../../components/commandBox";
+
+# createコマンド
+新しいパネルを作成し、そのパネルを選択します。
+## options
+| 名前             | 説明          | かならず必要？    |
+|:---|:---|:--:|
+| `role`  | 最初に追加する役職     | `○` |
+| `emoji` | 役職と対応させる絵文字 | `×`        |
+| `color` | パネルの色 | `x` |
+| `title` | パネルのタイトル | `x` |
+### Color引数について
+以下のいずれかが使えます。
+
+1. 以下のいずれか
+  - Todo: 色一覧を書く
+1. Random
+<CommandBox>
+    /rp create color:Random
+</CommandBox>
+  - パネルの色がランダムになります
+1. カラーコード指定
+
+## example
+シンプルな使い方
+<CommandBox>
+    /rp create role:@役職
+</CommandBox>
+絵文字を指定する例
+<CommandBox>
+    /rp create role:@りんご emoji::apple:
+</CommandBox>
+パネルの色やタイトルを指定する例
+<CommandBox>
+    /rp create role:@認証 title:ルールを読んだらつけてね color:00fa00
+</CommandBox>
