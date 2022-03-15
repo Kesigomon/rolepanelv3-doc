@@ -49,6 +49,7 @@ export const CommandBox = (props: PropsWithChildren<props>) => {
             onCopy={onCopy}
             fullWidth
             className={"commandBox"}
+            margin="dense"
             variant="outlined"
             onBlur={handleFocusOut}
             color={state !== 'default' ? state : 'info'}
