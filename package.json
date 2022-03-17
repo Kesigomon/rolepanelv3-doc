@@ -30,6 +30,7 @@
     "gatsby-remark-images": "^6.9.0",
     "gatsby-source-filesystem": "^4.9.0",
     "gatsby-transformer-sharp": "^4.9.0",
+    "gatsby-transformer-yaml": "^4.10.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
