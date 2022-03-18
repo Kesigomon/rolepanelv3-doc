@@ -1,2 +1,26 @@
+import CommandBox from "../../components/commandBox";
+
 # addコマンド
-TBD
+パネルに役職を追加します。
+あらかじめサーバー設定から役職を作成しておきましょう。
+## options
+| 名前             | 説明          | かならず必要？    |
+|:---|:---|:--:|
+| `role[1..20]`  | 追加する役職名     | `role1のみ○` |
+| `emoji[1..20]` | 追加する役職のアイコン | `×`        |
+
+## example
+役職を１つだけ追加する例
+<CommandBox>
+    /rp add role1:@Role
+</CommandBox>
+
+役職を複数追加する例
+<CommandBox>
+    /rp add role1:@Role1 role2:@Role2
+</CommandBox>
+
+絵文字オプションを使う例
+<CommandBox>
+    /rp add role1:@バナナ role2:@メロン emoji1::banana: emoji2::melon:
+</CommandBox>
