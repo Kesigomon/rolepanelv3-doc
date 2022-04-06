@@ -5,6 +5,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
+import PriorityHighIcon from '@mui/icons-material/PriorityHigh';
 
 type Props = PropsWithChildren<{
     onClick?: (event: React.MouseEvent<HTMLAnchorElement>) => void
@@ -86,6 +87,14 @@ const ListItems = (props: Props) => {
                     </ListItem>
                 )
             })}
+            <ListItem>
+                <ListItemButton component={Link} to="/tos" onClick={onClick}>
+                    <ListItemIcon>
+                        <PriorityHighIcon/>
+                    </ListItemIcon>
+                    <ListItemText primary="利用規約"/>
+                </ListItemButton>
+            </ListItem>
         </List>
     )
 }
