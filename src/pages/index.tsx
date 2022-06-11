@@ -14,7 +14,7 @@ const IndexPage = () => {
             このBOTの導入には、利用規約への同意が必要になります。<br/>
             <Link to={"/tos"}>こちら</Link>からご確認をお願いします。<br/>
             botの導入をもって、利用規約へ同意したとみなします。<br/>
-            <a href={"https://discord.com/api/oauth2/authorize?client_id=895912135039803402&permissions=268790848&scope=bot%20applications.commands"}>
+            <a href={"https://discord.com/api/oauth2/authorize?client_id=971523089550671953&permissions=268790848&scope=bot%20applications.commands"}>
                 Add to Your Server
             </a>
             <h1>サポートサーバー</h1>
